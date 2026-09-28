@@ -1,0 +1,422 @@
+[
+  {
+    "event_id": 4287,
+    "site": "SITE_04",
+    "provider_id": "SITE_04_RN000",
+    "medication": "Lorazepam",
+    "dispensed_qty": 1.03,
+    "unaccounted_qty": 0.85,
+    "after_hours": false,
+    "witnessed_cosign": false,
+    "cabinet_override": true,
+    "risk_score": 0.999992858210175,
+    "reasons": [
+      "dispense-vs-waste quantity discrepancy",
+      "provider discrepancy rate is a statistical outlier vs. site peers",
+      "unusually high after-hours cabinet access frequency",
+      "missing required witness co-signature",
+      "elevated rate of cabinet overrides vs. peers"
+    ],
+    "recommended_action": "URGENT: escalate to pharmacy diversion review team within 24h",
+    "ground_truth_is_diversion": true
+  },
+  {
+    "event_id": 10860,
+    "site": "SITE_08",
+    "provider_id": "SITE_08_RN024",
+    "medication": "Lorazepam",
+    "dispensed_qty": 1.31,
+    "unaccounted_qty": 1.06,
+    "after_hours": false,
+    "witnessed_cosign": false,
+    "cabinet_override": true,
+    "risk_score": 0.9999896744190888,
+    "reasons": [
+      "dispense-vs-waste quantity discrepancy",
+      "provider discrepancy rate is a statistical outlier vs. site peers",
+      "unusually high after-hours cabinet access frequency",
+      "missing required witness co-signature",
+      "elevated rate of cabinet overrides vs. peers"
+    ],
+    "recommended_action": "URGENT: escalate to pharmacy diversion review team within 24h",
+    "ground_truth_is_diversion": true
+  },
+  {
+    "event_id": 2214,
+    "site": "SITE_02",
+    "provider_id": "SITE_02_RN014",
+    "medication": "Oxycodone",
+    "dispensed_qty": 27.31,
+    "unaccounted_qty": 21.97,
+    "after_hours": true,
+    "witnessed_cosign": false,
+    "cabinet_override": true,
+    "risk_score": 0.9999893055306216,
+    "reasons": [
+      "dispense-vs-waste quantity discrepancy",
+      "provider discrepancy rate is a statistical outlier vs. site peers",
+      "unusually high after-hours cabinet access frequency",
+      "missing required witness co-signature",
+      "elevated rate of cabinet overrides vs. peers"
+    ],
+    "recommended_action": "URGENT: escalate to pharmacy diversion review team within 24h",
+    "ground_truth_is_diversion": true
+  },
+  {
+    "event_id": 9343,
+    "site": "SITE_07",
+    "provider_id": "SITE_07_RN020",
+    "medication": "Morphine",
+    "dispensed_qty": 5.86,
+    "unaccounted_qty": 4.19,
+    "after_hours": false,
+    "witnessed_cosign": false,
+    "cabinet_override": true,
+    "risk_score": 0.9999846518452983,
+    "reasons": [
+      "dispense-vs-waste quantity discrepancy",
+      "provider discrepancy rate is a statistical outlier vs. site peers",
+      "unusually high after-hours cabinet access frequency",
+      "missing required witness co-signature",
+      "elevated rate of cabinet overrides vs. peers"
+    ],
+    "recommended_action": "URGENT: escalate to pharmacy diversion review team within 24h",
+    "ground_truth_is_diversion": true
+  },
+  {
+    "event_id": 1128,
+    "site": "SITE_01",
+    "provider_id": "SITE_01_RN019",
+    "medication": "Hydromorphone",
+    "dispensed_qty": 7.5,
+    "unaccounted_qty": 5.14,
+    "after_hours": false,
+    "witnessed_cosign": false,
+    "cabinet_override": true,
+    "risk_score": 0.999982175798332,
+    "reasons": [
+      "dispense-vs-waste quantity discrepancy",
+      "provider discrepancy rate is a statistical outlier vs. site peers",
+      "unusually high after-hours cabinet access frequency",
+      "missing required witness co-signature",
+      "elevated rate of cabinet overrides vs. peers"
+    ],
+    "recommended_action": "URGENT: escalate to pharmacy diversion review team within 24h",
+    "ground_truth_is_diversion": true
+  },
+  {
+    "event_id": 9335,
+    "site": "SITE_07",
+    "provider_id": "SITE_07_RN020",
+    "medication": "Fentanyl",
+    "dispensed_qty": 0.39,
+    "unaccounted_qty": 0.27,
+    "after_hours": true,
+    "witnessed_cosign": false,
+    "cabinet_override": true,
+    "risk_score": 0.9999815851645214,
+    "reasons": [
+      "dispense-vs-waste quantity discrepancy",
+      "provider discrepancy rate is a statistical outlier vs. site peers",
+      "unusually high after-hours cabinet access frequency",
+      "missing required witness co-signature",
+      "elevated rate of cabinet overrides vs. peers"
+    ],
+    "recommended_action": "URGENT: escalate to pharmacy diversion review team within 24h",
+    "ground_truth_is_diversion": true
+  },
+  {
+    "event_id": 6959,
+    "site": "SITE_06",
+    "provider_id": "SITE_06_RN000",
+    "medication": "Fentanyl",
+    "dispensed_qty": 0.13,
+    "unaccounted_qty": 0.1,
+    "after_hours": true,
+    "witnessed_cosign": false,
+    "cabinet_override": true,
+    "risk_score": 0.9999806694177726,
+    "reasons": [
+      "dispense-vs-waste quantity discrepancy",
+      "provider discrepancy rate is a statistical outlier vs. site peers",
+      "unusually high after-hours cabinet access frequency",
+      "missing required witness co-signature",
+      "elevated rate of cabinet overrides vs. peers"
+    ],
+    "recommended_action": "URGENT: escalate to pharmacy diversion review team within 24h",
+    "ground_truth_is_diversion": true
+  },
+  {
+    "event_id": 6962,
+    "site": "SITE_06",
+    "provider_id": "SITE_06_RN000",
+    "medication": "Hydromorphone",
+    "dispensed_qty": 7.44,
+    "unaccounted_qty": 5.72,
+    "after_hours": false,
+    "witnessed_cosign": false,
+    "cabinet_override": true,
+    "risk_score": 0.9999806051846212,
+    "reasons": [
+      "dispense-vs-waste quantity discrepancy",
+      "provider discrepancy rate is a statistical outlier vs. site peers",
+      "unusually high after-hours cabinet access frequency",
+      "missing required witness co-signature",
+      "elevated rate of cabinet overrides vs. peers"
+    ],
+    "recommended_action": "URGENT: escalate to pharmacy diversion review team within 24h",
+    "ground_truth_is_diversion": true
+  },
+  {
+    "event_id": 9356,
+    "site": "SITE_07",
+    "provider_id": "SITE_07_RN020",
+    "medication": "Oxycodone",
+    "dispensed_qty": 18.15,
+    "unaccounted_qty": 12.35,
+    "after_hours": true,
+    "witnessed_cosign": false,
+    "cabinet_override": true,
+    "risk_score": 0.999979746129531,
+    "reasons": [
+      "dispense-vs-waste quantity discrepancy",
+      "provider discrepancy rate is a statistical outlier vs. site peers",
+      "unusually high after-hours cabinet access frequency",
+      "missing required witness co-signature",
+      "elevated rate of cabinet overrides vs. peers"
+    ],
+    "recommended_action": "URGENT: escalate to pharmacy diversion review team within 24h",
+    "ground_truth_is_diversion": true
+  },
+  {
+    "event_id": 10853,
+    "site": "SITE_08",
+    "provider_id": "SITE_08_RN024",
+    "medication": "Fentanyl",
+    "dispensed_qty": 0.39,
+    "unaccounted_qty": 0.28,
+    "after_hours": false,
+    "witnessed_cosign": false,
+    "cabinet_override": true,
+    "risk_score": 0.9999785382597526,
+    "reasons": [
+      "dispense-vs-waste quantity discrepancy",
+      "provider discrepancy rate is a statistical outlier vs. site peers",
+      "unusually high after-hours cabinet access frequency",
+      "missing required witness co-signature",
+      "elevated rate of cabinet overrides vs. peers"
+    ],
+    "recommended_action": "URGENT: escalate to pharmacy diversion review team within 24h",
+    "ground_truth_is_diversion": true
+  },
+  {
+    "event_id": 3879,
+    "site": "SITE_03",
+    "provider_id": "SITE_03_RN018",
+    "medication": "Hydromorphone",
+    "dispensed_qty": 2.47,
+    "unaccounted_qty": 1.9,
+    "after_hours": true,
+    "witnessed_cosign": false,
+    "cabinet_override": true,
+    "risk_score": 0.9999773142431303,
+    "reasons": [
+      "dispense-vs-waste quantity discrepancy",
+      "provider discrepancy rate is a statistical outlier vs. site peers",
+      "unusually high after-hours cabinet access frequency",
+      "missing required witness co-signature",
+      "elevated rate of cabinet overrides vs. peers"
+    ],
+    "recommended_action": "URGENT: escalate to pharmacy diversion review team within 24h",
+    "ground_truth_is_diversion": true
+  },
+  {
+    "event_id": 9358,
+    "site": "SITE_07",
+    "provider_id": "SITE_07_RN020",
+    "medication": "Midazolam",
+    "dispensed_qty": 7.8,
+    "unaccounted_qty": 5.19,
+    "after_hours": false,
+    "witnessed_cosign": false,
+    "cabinet_override": true,
+    "risk_score": 0.9999771462079088,
+    "reasons": [
+      "dispense-vs-waste quantity discrepancy",
+      "provider discrepancy rate is a statistical outlier vs. site peers",
+      "unusually high after-hours cabinet access frequency",
+      "missing required witness co-signature",
+      "elevated rate of cabinet overrides vs. peers"
+    ],
+    "recommended_action": "URGENT: escalate to pharmacy diversion review team within 24h",
+    "ground_truth_is_diversion": true
+  },
+  {
+    "event_id": 6359,
+    "site": "SITE_05",
+    "provider_id": "SITE_05_RN014",
+    "medication": "Midazolam",
+    "dispensed_qty": 4.67,
+    "unaccounted_qty": 3.26,
+    "after_hours": false,
+    "witnessed_cosign": false,
+    "cabinet_override": true,
+    "risk_score": 0.99997624414829,
+    "reasons": [
+      "dispense-vs-waste quantity discrepancy",
+      "provider discrepancy rate is a statistical outlier vs. site peers",
+      "unusually high after-hours cabinet access frequency",
+      "missing required witness co-signature",
+      "elevated rate of cabinet overrides vs. peers"
+    ],
+    "recommended_action": "URGENT: escalate to pharmacy diversion review team within 24h",
+    "ground_truth_is_diversion": true
+  },
+  {
+    "event_id": 6356,
+    "site": "SITE_05",
+    "provider_id": "SITE_05_RN014",
+    "medication": "Midazolam",
+    "dispensed_qty": 7.34,
+    "unaccounted_qty": 4.99,
+    "after_hours": true,
+    "witnessed_cosign": false,
+    "cabinet_override": true,
+    "risk_score": 0.9999725021304229,
+    "reasons": [
+      "dispense-vs-waste quantity discrepancy",
+      "provider discrepancy rate is a statistical outlier vs. site peers",
+      "unusually high after-hours cabinet access frequency",
+      "missing required witness co-signature",
+      "elevated rate of cabinet overrides vs. peers"
+    ],
+    "recommended_action": "URGENT: escalate to pharmacy diversion review team within 24h",
+    "ground_truth_is_diversion": true
+  },
+  {
+    "event_id": 9332,
+    "site": "SITE_07",
+    "provider_id": "SITE_07_RN020",
+    "medication": "Oxycodone",
+    "dispensed_qty": 16.57,
+    "unaccounted_qty": 10.57,
+    "after_hours": true,
+    "witnessed_cosign": false,
+    "cabinet_override": true,
+    "risk_score": 0.9999715091732323,
+    "reasons": [
+      "dispense-vs-waste quantity discrepancy",
+      "provider discrepancy rate is a statistical outlier vs. site peers",
+      "unusually high after-hours cabinet access frequency",
+      "missing required witness co-signature",
+      "elevated rate of cabinet overrides vs. peers"
+    ],
+    "recommended_action": "URGENT: escalate to pharmacy diversion review team within 24h",
+    "ground_truth_is_diversion": true
+  },
+  {
+    "event_id": 4272,
+    "site": "SITE_04",
+    "provider_id": "SITE_04_RN000",
+    "medication": "Fentanyl",
+    "dispensed_qty": 0.23,
+    "unaccounted_qty": 0.15,
+    "after_hours": false,
+    "witnessed_cosign": false,
+    "cabinet_override": true,
+    "risk_score": 0.9999713766591969,
+    "reasons": [
+      "dispense-vs-waste quantity discrepancy",
+      "provider discrepancy rate is a statistical outlier vs. site peers",
+      "unusually high after-hours cabinet access frequency",
+      "missing required witness co-signature",
+      "elevated rate of cabinet overrides vs. peers"
+    ],
+    "recommended_action": "URGENT: escalate to pharmacy diversion review team within 24h",
+    "ground_truth_is_diversion": true
+  },
+  {
+    "event_id": 4253,
+    "site": "SITE_04",
+    "provider_id": "SITE_04_RN000",
+    "medication": "Midazolam",
+    "dispensed_qty": 5.97,
+    "unaccounted_qty": 3.66,
+    "after_hours": true,
+    "witnessed_cosign": false,
+    "cabinet_override": true,
+    "risk_score": 0.9999608295145987,
+    "reasons": [
+      "dispense-vs-waste quantity discrepancy",
+      "provider discrepancy rate is a statistical outlier vs. site peers",
+      "unusually high after-hours cabinet access frequency",
+      "missing required witness co-signature",
+      "elevated rate of cabinet overrides vs. peers"
+    ],
+    "recommended_action": "URGENT: escalate to pharmacy diversion review team within 24h",
+    "ground_truth_is_diversion": true
+  },
+  {
+    "event_id": 6940,
+    "site": "SITE_06",
+    "provider_id": "SITE_06_RN000",
+    "medication": "Oxycodone",
+    "dispensed_qty": 24.51,
+    "unaccounted_qty": 16.69,
+    "after_hours": true,
+    "witnessed_cosign": false,
+    "cabinet_override": true,
+    "risk_score": 0.9999607541776105,
+    "reasons": [
+      "dispense-vs-waste quantity discrepancy",
+      "provider discrepancy rate is a statistical outlier vs. site peers",
+      "unusually high after-hours cabinet access frequency",
+      "missing required witness co-signature",
+      "elevated rate of cabinet overrides vs. peers"
+    ],
+    "recommended_action": "URGENT: escalate to pharmacy diversion review team within 24h",
+    "ground_truth_is_diversion": true
+  },
+  {
+    "event_id": 4249,
+    "site": "SITE_04",
+    "provider_id": "SITE_04_RN000",
+    "medication": "Morphine",
+    "dispensed_qty": 7.27,
+    "unaccounted_qty": 4.36,
+    "after_hours": false,
+    "witnessed_cosign": false,
+    "cabinet_override": true,
+    "risk_score": 0.9999564055400282,
+    "reasons": [
+      "dispense-vs-waste quantity discrepancy",
+      "provider discrepancy rate is a statistical outlier vs. site peers",
+      "unusually high after-hours cabinet access frequency",
+      "missing required witness co-signature",
+      "elevated rate of cabinet overrides vs. peers"
+    ],
+    "recommended_action": "URGENT: escalate to pharmacy diversion review team within 24h",
+    "ground_truth_is_diversion": true
+  },
+  {
+    "event_id": 4262,
+    "site": "SITE_04",
+    "provider_id": "SITE_04_RN000",
+    "medication": "Oxycodone",
+    "dispensed_qty": 31.91,
+    "unaccounted_qty": 18.94,
+    "after_hours": false,
+    "witnessed_cosign": false,
+    "cabinet_override": true,
+    "risk_score": 0.9999541898584998,
+    "reasons": [
+      "dispense-vs-waste quantity discrepancy",
+      "provider discrepancy rate is a statistical outlier vs. site peers",
+      "unusually high after-hours cabinet access frequency",
+      "missing required witness co-signature",
+      "elevated rate of cabinet overrides vs. peers"
+    ],
+    "recommended_action": "URGENT: escalate to pharmacy diversion review team within 24h",
+    "ground_truth_is_diversion": true
+  }
+]
